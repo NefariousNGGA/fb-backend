@@ -1,5 +1,5 @@
 import express from 'express';
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer';  // ← Use regular puppeteer, not puppeteer-core
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
 
